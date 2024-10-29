@@ -23,7 +23,7 @@ def superhero_interaction():
                 print("Oh yeah this guys invited to the cookout!")
                 break # Exit loop after giving a thank you message
             elif spiderman_vs_batman == "batman":
-                print("Yeah, and how much PREP TIME did he need? 😒 Well, whatever, thanks for your input!")
+                print("Yeah, and how much PREP TIME did he need? 😒 Well, whatever, thanks for your input i guess...")
                 break  # Exit loop after giving a thank you message
             else:
                 print("Please answer with 'spiderman' or 'batman'.")
@@ -36,7 +36,7 @@ def superhero_interaction():
             print("Please answer 'yes' or 'no'.")  
 
     # Thank you message after exiting the loop
-    print("fyi i love batman i just thinks spiderman beats him in a head on fight")
+    print("fyi i love batman i just thinks spiderman beats him in a head on fight don't go all fan on me 🙄")
 
 # Call the function to run the interaction
 superhero_interaction()
