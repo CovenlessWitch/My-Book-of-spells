@@ -16,5 +16,11 @@ public class PlayerMovement : MonoBehaviour
         float verticalInput = Input.GetAxis("Vertical");
         Vector3 newPosiition = new Vector3(horizontalInput,verticalInput,0);
         transform.Translate(newPosiition*speed*Time.deltaTime);
+    
     }
+    void OnCollisionEnter2D(Collision2D collision) 
+    {if (collision.gameObject.tag == "Emerald")
+    Destroy(collision.gameObject);    
+    }
+
 }
